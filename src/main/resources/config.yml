@@ -1,0 +1,73 @@
+# ==============================
+#       OreDoubler - Config
+#       Tác giả: VennLMAO
+#       Phiên bản: 1.0.0
+# ==============================
+#
+# ⚠️ QUAN TRỌNG: Phải xóa thư mục world, world_nether, world_the_end
+# rồi mới khởi động lại server để quặng gen nhiều hơn trong thế giới mới.
+#
+# Giải thích các thuộc tính:
+#   enabled - true/false: bật hoặc tắt gen thêm quặng này
+#   min     - Số khối quặng tối thiểu trong 1 mạch quặng
+#   max     - Số khối quặng tối đa trong 1 mạch quặng
+#
+# Vị trí xuất hiện của quặng giữ nguyên như Minecraft bình thường.
+# Chỉ kích thước mạch quặng (min/max) là được tăng lên.
+
+ores:
+
+  COAL_ORE:
+    enabled: true   # Quặng Than - bật/tắt gen thêm quặng này
+    min: 8          # Tối thiểu 8 khối trong 1 mạch
+    max: 16         # Tối đa 16 khối trong 1 mạch
+
+  IRON_ORE:
+    enabled: true   # Quặng Sắt - bật/tắt gen thêm quặng này
+    min: 8          # Tối thiểu 8 khối trong 1 mạch
+    max: 16         # Tối đa 16 khối trong 1 mạch
+
+  COPPER_ORE:
+    enabled: true   # Quặng Đồng - bật/tắt gen thêm quặng này
+    min: 8          # Tối thiểu 8 khối trong 1 mạch
+    max: 16         # Tối đa 16 khối trong 1 mạch
+
+  GOLD_ORE:
+    enabled: true   # Quặng Vàng - bật/tắt gen thêm quặng này
+    min: 6          # Tối thiểu 6 khối trong 1 mạch
+    max: 12         # Tối đa 12 khối trong 1 mạch
+
+  REDSTONE_ORE:
+    enabled: true   # Quặng Đá Đỏ - bật/tắt gen thêm quặng này
+    min: 6          # Tối thiểu 6 khối trong 1 mạch
+    max: 12         # Tối đa 12 khối trong 1 mạch
+
+  LAPIS_ORE:
+    enabled: true   # Quặng Lapis Lazuli - bật/tắt gen thêm quặng này
+    min: 6          # Tối thiểu 6 khối trong 1 mạch
+    max: 12         # Tối đa 12 khối trong 1 mạch
+
+  DIAMOND_ORE:
+    enabled: true   # Quặng Kim Cương - bật/tắt gen thêm quặng này
+    min: 4          # Tối thiểu 4 khối trong 1 mạch
+    max: 10         # Tối đa 10 khối trong 1 mạch
+
+  EMERALD_ORE:
+    enabled: true   # Quặng Ngọc Lục Bảo - bật/tắt gen thêm quặng này
+    min: 3          # Tối thiểu 3 khối trong 1 mạch
+    max: 8          # Tối đa 8 khối trong 1 mạch
+
+  NETHER_GOLD_ORE:
+    enabled: true   # Quặng Vàng Nether - bật/tắt gen thêm quặng này
+    min: 8          # Tối thiểu 8 khối trong 1 mạch
+    max: 16         # Tối đa 16 khối trong 1 mạch
+
+  NETHER_QUARTZ_ORE:
+    enabled: true   # Quặng Thạch Anh Nether - bật/tắt gen thêm quặng này
+    min: 8          # Tối thiểu 8 khối trong 1 mạch
+    max: 16         # Tối đa 16 khối trong 1 mạch
+
+  ANCIENT_DEBRIS:
+    enabled: true   # Mảnh Vụn Cổ Đại (Netherite) - bật/tắt gen thêm quặng này
+    min: 1          # Tối thiểu 1 khối trong 1 mạch
+    max: 3          # Tối đa 3 khối trong 1 mạch

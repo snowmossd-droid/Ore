@@ -1,0 +1,18 @@
+name: OreDoubler
+version: 1.0.0
+main: com.vennlmao.oredoubler.OreDoubler
+api-version: '1.21'
+author: VennLMAO
+description: Tăng gen quặng ngoài tự nhiên nhiều hơn bình thường.
+
+commands:
+  oredoubler:
+    description: Lệnh chính của OreDoubler
+    aliases: [od]
+    permission: oredoubler.admin
+    usage: /oredoubler <reload>
+
+permissions:
+  oredoubler.admin:
+    description: Quyền dùng lệnh OreDoubler
+    default: op
